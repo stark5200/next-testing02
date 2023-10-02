@@ -1,18 +1,26 @@
 'use client'
 
 import React, { useState } from "react"
-import useLocalStorage from "@/hooks/useLocalStorage"
-import useUpdateLogger from "@/hooks/useUpdateLogger"
 
 export default function Home() {
-
-  const [name, setName] = useLocalStorage('10', '')
-  useUpdateLogger(name)
+  
+  
   return (
-    <input
-      type="text"
-      value={name}
-      onChange={e => setName(e.target.value)} 
-    />
-    )
+    <section className="py-24">
+      <div className="container">
+        <h1 className="text-3xl font-bold">Home</h1>
+      </div>
+    </section>
+  )
 }
+    
+
+//import useLocalStorage from "@/hooks/useLocalStorage"
+//import useUpdateLogger from "@/hooks/useUpdateLogger"
+//const [name, setName] = useLocalStorage('10', '')
+//  useUpdateLogger(name)
+//<input
+//      type="text"
+//      value={name}
+//      onChange={e => setName(e.target.value)} 
+//    />
