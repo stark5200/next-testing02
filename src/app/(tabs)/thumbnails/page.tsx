@@ -66,6 +66,7 @@ export default function Page() {
             </SwiperSlide>
           ))}
         </Swiper>
+        <p> Thumbnails </p>
       </div>
     </section>
   )

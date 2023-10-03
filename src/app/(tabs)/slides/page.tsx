@@ -35,6 +35,7 @@ export default function Page() {
             </SwiperSlide>
           ))}
         </Swiper>
+        <p> Slides </p>
       </div>
     </section>
   
