@@ -61,6 +61,7 @@ export default function Page() {
                   className='block h-full w-full object-cover'
                 />
                 <h1> How abou this</h1> 
+                <h2>More testing</h2>
               </div>
             </SwiperSlide>
           ))}
