@@ -62,6 +62,7 @@ export default function Page() {
                 />
                 <h1> How abou this</h1> 
                 <h2>More testing</h2>
+                <p>Today / tomorrow i'm going to start my cv and prepare to apply</p>
               </div>
             </SwiperSlide>
           ))}
