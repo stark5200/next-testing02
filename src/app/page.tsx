@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState } from "react"
-//import Image from "next/image"
+import Image from "next/image"
 
 export default function Home() {
   
@@ -15,13 +15,3 @@ export default function Home() {
   )
 }
     
-
-//import useLocalStorage from "@/hooks/useLocalStorage"
-//import useUpdateLogger from "@/hooks/useUpdateLogger"
-//const [name, setName] = useLocalStorage('10', '')
-//  useUpdateLogger(name)
-//<input
-//      type="text"
-//      value={name}
-//      onChange={e => setName(e.target.value)} 
-//    />
